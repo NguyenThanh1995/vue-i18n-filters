@@ -1,0 +1,22 @@
+{
+  "name": "vue-i18n-filters",
+  "version": "1.0.0",
+  "description": "Filters method for vue-i18n",
+  "main": "src/index.js",
+  "author": "Nguyen Thanh",
+  "license": "MIT",
+
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nguyenthanh1995/vue-i18n-filters.git"
+  },
+  "keywords": [
+    "translate",
+    "vue-i18n",
+    "vue-i18n-filters"
+  ],
+  "bugs": {
+    "url": "https://github.com/nguyenthanh1995/vue-i18n-filters/issues"
+  },
+  "homepage": "https://github.com/nguyenthanh1995/vue-i18n-filters#readme"
+}
