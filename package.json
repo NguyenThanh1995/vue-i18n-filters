@@ -5,7 +5,6 @@
   "main": "src/index.js",
   "author": "Nguyen Thanh",
   "license": "MIT",
-
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/nguyenthanh1995/vue-i18n-filters.git"
@@ -18,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/nguyenthanh1995/vue-i18n-filters/issues"
   },
-  "homepage": "https://github.com/nguyenthanh1995/vue-i18n-filters#readme"
+  "homepage": "https://github.com/nguyenthanh1995/vue-i18n-filters#readme",
+  "scripts": {
+    "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
+    "build": "node_modules/webpack/bin/webpack.js --mode production --progress --hide-modules"
+  },
+  "dependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }
